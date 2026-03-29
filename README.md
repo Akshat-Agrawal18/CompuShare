@@ -74,9 +74,9 @@ Both are scarce resources that providers contribute to the network.
 | Component | Technology |
 |-----------|------------|
 | P2P Networking | libp2p (Go) |
-| Homomorphic Encryption | Microsoft SEAL (CKKS) |
+| Homomorphic Encryption | Lattigo (CKKS) |
 | Model Distribution | BitTorrent-style chunking |
-| Inference Runtime | vLLM |
+| Inference Runtime | llama.cpp |
 | Identity | Ed25519 PeerID |
 | Karma Storage | DHT-based (no blockchain) |
 
@@ -209,11 +209,11 @@ This is an early-stage project. The architecture is designed but implementation 
 - [x] Consumer CLI
 - [x] Provider service
 - [x] Pipeline orchestrator (design)
-- [ ] Homomorphic encryption (SEAL integration)
-- [ ] vLLM integration for inference
-- [ ] BitTorrent model distribution
-- [ ] Multi-provider consensus verification
-- [ ] GPU detection
+- [x] Homomorphic encryption (Lattigo integration)
+- [x] llama.cpp integration for inference
+- [x] BitTorrent model distribution
+- [x] Multi-provider consensus verification
+- [x] GPU detection
 
 ## Contributing
 
@@ -226,6 +226,6 @@ MIT
 ## References
 
 - [libp2p](https://libp2p.io/) — P2P networking stack
-- [Microsoft SEAL](https://github.com/microsoft/SEAL) — Homomorphic encryption
-- [vLLM](https://github.com/vllm-project/vllm) — Fast LLM inference
+- [Lattigo](https://github.com/tuneinsight/lattigo) — Homomorphic encryption in Go
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) — Fast LLM inference
 - [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent) — P2P distribution protocol
