@@ -1,0 +1,10 @@
+{
+  "model_id": "mistral-7b-q4",
+  "version": "1.0.0",
+  "piece_size": 134217728,
+  "total_size": 4380000000,
+  "piece_hashes": [
+    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  ],
+  "signature": ""
+}

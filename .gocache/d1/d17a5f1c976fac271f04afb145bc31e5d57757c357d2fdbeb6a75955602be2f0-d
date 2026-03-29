@@ -1,0 +1,3 @@
+./common.go
+./netroute_windows.go
+./sockaddr_windows.go

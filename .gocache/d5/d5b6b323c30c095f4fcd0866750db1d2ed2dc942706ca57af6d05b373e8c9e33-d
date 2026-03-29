@@ -1,0 +1,4 @@
+./connmgr.go
+./decay.go
+./options.go
+./watchdog_no_cgo.go
